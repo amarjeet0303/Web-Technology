@@ -1,0 +1,29 @@
+body{
+    background-image: url('avw-o5XeTEZ0wcA-unsplash.jpg');
+    background-size: cover;
+}
+.register{
+    max-width: 500px;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    background:rgba(196, 241, 241, 0.3);
+    padding: 40pt;
+    margin-top: 100pt;
+    font-style: sans-serif;
+    color:#fff;
+}
+.register h2{
+    text-align: center;
+    color: black;
+}
+input[type=text],input[type=textarea],input[type=email],input[type=number],input[type=date]{
+   width: 100%; 
+   box-sizing: border-box;
+   padding: 5px;
+   border-radius: 15px;
+   background: rgba(0,0,0,0.5); 
+}
+::placeholder{
+    color:white
+}
